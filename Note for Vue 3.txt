@@ -1,0 +1,14 @@
+--> why vue js ?
+
+-> vue  is front end  framework 
+--> it is simplicity 
+--> performance  and  scllabiliy
+--> injectble 
+
+
+tool required for vue js 
+
+node js 
+vs code 
+
+

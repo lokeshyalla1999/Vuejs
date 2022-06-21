@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding :0;
+}
+#app{
+    background-color:green;
+}
+.class1{
+    background-color: orangered;
+}
+.class2{
+    background-color: white;
+}
+.form {
+    border:solid green 2px;
+}
+
+.form .username {
+     border:solid black 4px;
+}
+
+.form .password{
+    border: solid red 3px;
+    border-radius:4px;
+}
