@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indexpage</title>
+    <script src="https://unpkg.com/vue@next"></script>
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class = " india">i love my india</h1>
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+            <img ::src="image" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{Card_title}}</h5>
+              <p class="card-text">{{card_text}}</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+    <div class="class1">
+        <h1>i am {{name}}</h1>
+
+    </div>
+    <div class="class2">
+        <h1>i am {{name2}}</h1>
+    </div>
+    <div id="app">
+        <h1>both {{name}} and {{name2}} are love each other</h1>
+    </div>
+    <div class="class3">
+        <h1>i am studying in {{clg}}</h1>
+    </div>
+    <div class="form">
+        <input class = "username" type="text" placeholder="enter the username"><br>
+        <input class = "password" type="password" placeholder="enter the password"><br>
+        <input type="submit" placeholder="submit">
+        <button  @click="alert('i love u chitti')">Say hello</button>
+    </div>
+    <div class="pair">
+        <h1>both {{namee}} are in love</h1> 
+
+    </div>
+    <div class="cardinarray">
+        <div class="Row">
+            <div class="col-md-12">
+                <h1 class="card-title">course name is {{coursename}}</h1>
+                <h6 class="card-text">course deiscription is {{coursedescription}}</h6>
+                <h6 class="card-text">course price is {{courseprice}}</h6>
+                <h6 class="card-text">course image is {{courseimage}}</h6>
+                <h6 class="card-text">course url is {{courseurl}}</h6>
+            </div>
+        </div>
+    </div>  
+</body>
+<script src="./script.js">
+</script>
+</html> 

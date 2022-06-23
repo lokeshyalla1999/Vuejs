@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indexpage</title>
+    <script src="https://unpkg.com/vue@next"></script>
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div v-for="(course,index) in list":key="course.id" class="arrayhandling">
+    <div class="cards">
+        <h1 class="title">{{course.name}}</h1>
+        <h2 class="subheading">{{course.subtitle}}</h2>
+        <h3 class="course">{{course.coursename}}</h3>
+        <img :src="course.image" alt="image is not found">
+        <h4 class="price">{{course.price}}</h4>
+    </div>
+   </div>   
+</body>
+<script>
+     console.log(" i hate u chitti");
+     Vue.createApp({
+        data()
+        {
+            return{
+                list:[
+                    {
+                        id:100,
+                        name :"chitti",
+                        subtitle:"nani",
+                        coursename:"frontend developer",
+                        image:"frontend.png",
+                        price:"1600"
+                    },
+                    {
+                        id:101,
+                        name :"chitti",
+                        subtitle:"nani",
+                        coursename:"backend developer",
+                        image:"frontend.png",
+                        price:"1600"
+                    },
+                    {
+                        id:102,
+                        name :"chitti",
+                        subtitle:"nani",
+                        coursename:"database developer",
+                        image:"frontend.png",
+                        price:"1600"
+                    },
+                    {
+                        id:103,
+                        name :"chitti",
+                        subtitle:"nani",
+                        coursename:"vue developer",
+                        image:"frontend.png",
+                        price:"1600"
+                    }
+                 ]
+                
+            }
+        }
+     }).mount(".arrayhandling");
+</script>
+<script src="./script.js"></script>
+</html>

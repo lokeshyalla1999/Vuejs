@@ -12,3 +12,11 @@ node js
 vs code 
 
 
+
+There are two types of methods to write the code in vue js framework 
+CDI and CLI
+
+
+CDI --> In this moehod we have to create html 
+in html file 
+we have to write the ui code , css code , js code in single file 

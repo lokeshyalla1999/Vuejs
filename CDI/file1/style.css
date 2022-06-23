@@ -23,3 +23,11 @@
     border: solid red 3px;
     border-radius:4px;
 }
+.india{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    border: solid black 4px;
+    border-radius :5px;
+    text-align: center;
+}
