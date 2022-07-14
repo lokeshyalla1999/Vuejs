@@ -1,14 +1,23 @@
 <template>
- <BindingAll /> 
- 
+ <BindingAll class="binding" />
+ <BindingClass class="binding2" />
+ <AlertBox />
+ <IfCondition />
+ <IfElse />
+ <RefComponent />
 </template>
 
 <script>
 import BindingAll from './components/BindingAll.vue'
+import BindingClass from './components/BindingClass.vue'
+import AlertBox from './components/AlertBox.vue'
+import IfCondition from './components/IfCondition.vue'
+import IfElse from './components/IfElse.vue'
+import RefComponent from './components/RefComponent.vue'
 export default {
   name: 'App',
   components: {
-    BindingAll
+    BindingAll,BindingClass,AlertBox,IfCondition,IfElse,RefComponent
   }
 }
 </script>
